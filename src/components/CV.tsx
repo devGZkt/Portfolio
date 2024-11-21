@@ -1,21 +1,21 @@
 const CV = () => {
   return (
-    <div className="min-h-screen bg-black flex justify-center items-center p-4 md:p-12">
+    <div className="min-h-screen bg-white flex justify-center items-center p-4 md:p-12 dark:bg-black">
       <div className="container mx-auto flex flex-col md:flex-row space-y-8 md:space-y-0 md:space-x-16">
         <div className="text-white md:w-1/2 space-y-8 px-4 sm:px-8">
           <h3 className="text-yellow-400 text-lg tracking-wider uppercase">
             Curriculum Vitae
           </h3>
-          <h1 className="text-4xl sm:text-6xl font-bold leading-tight">
+          <h1 className="text-4xl text-black sm:text-6xl font-bold leading-tight dark:text-white">
             Gabriel Zimmermann
           </h1>
 
           <div>
-            <a href="" className="bg-yellow-500 text-black text-lg py-2 px-6 rounded-lg transistion duration-300 transform hover:bg-yellow-600 hover:scale-105">Download CV</a>
+            <a href="" className="bg-yellow-500 text-black text-lg text-black py-2 px-6 rounded-lg transistion duration-300 transform hover:bg-yellow-600 hover:scale-105">Download CV</a>
           </div>
 
           <div className="space-y-4">
-            <h2 className="text-xl font-semibold">Personal Information</h2>
+            <h2 className="text-xl font-semibold text-black dark:text-white">Personal Information</h2>
             <p className="text-gray-400">
               <span className="font-semibold">Date of Birth:</span> 29.12.2003, Zürich
             </p>
@@ -31,7 +31,7 @@ const CV = () => {
           </div>
 
           <div className="space-y-4">
-            <h2 className="text-xl font-semibold mt-6">Skills</h2>
+            <h2 className="text-xl font-semibold mt-6 text-black dark:text-white">Skills</h2>
             <ul className="text-gray-400 list-disc list-inside space-y-2">
               <li>Communication</li>
               <li>Flexibility</li>
@@ -48,7 +48,7 @@ const CV = () => {
           </div>
 
           <div className="space-y-4">
-            <h2 className="text-xl font-semibold mt-6">Languages</h2>
+            <h2 className="text-xl font-semibold mt-6 text-black dark:text-white">Languages</h2>
             <ul className="text-gray-400 list-disc list-inside space-y-2">
               <li>German (Native)</li>
               <li>Portuguese (Native)</li>
@@ -58,7 +58,7 @@ const CV = () => {
           </div>
 
           <div className="space-y-4">
-            <h2 className="text-xl font-semibold mt-6">Hobbies</h2>
+            <h2 className="text-xl font-semibold mt-6 text-black dark:text-white">Hobbies</h2>
             <ul className="text-gray-400 list-disc list-inside space-y-2">
               <li>Reading</li>
               <li>Football</li>
@@ -70,11 +70,6 @@ const CV = () => {
 
         <div className="order-last md:order-none mt-8 md:mt-0 md:w-1/2">
           <div className="relative overflow-hidden rounded-xl shadow-lg">
-            <img
-              src="/path-to-image/cover.png"
-              alt="Gabriel Zimmermann"
-              className="w-full transition-transform duration-300 hover:scale-105"
-            />
           </div>
         </div>
       </div>

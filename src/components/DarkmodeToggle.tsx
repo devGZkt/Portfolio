@@ -2,7 +2,6 @@ import React, { useState, useEffect } from 'react';
 
 const DarkModeToggle: React.FC = () => {
   const [darkMode, setDarkMode] = useState<boolean>(false);
-
   useEffect(() => {
     const storedTheme = localStorage.getItem('theme');
     if (storedTheme === 'dark' || (!storedTheme && window.matchMedia('(prefers-color-scheme: dark)').matches)) {

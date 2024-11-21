@@ -27,7 +27,7 @@ const Navbar = () => {
             CV
           </Link>
           <Link to="/contact" className="text-lg font-medium text-gray-800 dark:text-white hover:text-yellow-500">
-            Kontakt
+            Contact
           </Link>
           <Link to="/aboutme" className="text-lg font-medium text-gray-800 dark:text-white hover:text-yellow-500">
             About Me
@@ -89,7 +89,7 @@ const Navbar = () => {
                 className="text-lg font-medium text-gray-800 dark:text-white hover:text-yellow-500"
                 onClick={() => setIsMenuOpen(false)}
               >
-                Kontakt
+                Contact
               </Link>
             </li>
             <li>
