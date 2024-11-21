@@ -6,6 +6,7 @@ import CV from './components/CV';
 import Footer from './components/Footer';
 import AboutMe from './components/AboutMe';
 import Contact from './components/Contact';
+import Notfound from './components/Notfound';
 
 function App() {
   return (
@@ -16,6 +17,8 @@ function App() {
         <Route path="/cv" element={<CV />} />
         <Route path="/aboutme" element={<AboutMe />} />
         <Route path="/contact" element={<Contact />} />
+        {/* unmached routes */}
+        <Route path="*" element={<Notfound />} />
       </Routes>
       <Footer />
     </Router>

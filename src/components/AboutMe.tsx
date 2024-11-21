@@ -10,7 +10,7 @@ const AboutMe = () => {
               I am currently based in Switzerland, pursuing my passion for software development. With a background in application development, I specialize in building web-based applications, always eager to learn and apply new technologies. 
             </p>
             <p className="text-gray-400">
-              I am completing a two-year program as an Application Developer and have experience with HTML, CSS, JavaScript, and React. I enjoy working on creative projects, solving technical problems, and collaborating with like-minded professionals.
+              I am completing a two-year program as an Application Developer and have experience with HTML, CSS, JavaScript, React, Node.js, Express and MongoDB. I enjoy working on creative projects, solving technical problems, and collaborating with like-minded professionals.
             </p>
             <p className="text-gray-400">
               Outside of coding, I enjoy learning about cutting-edge tech trends and improving my skills in Linux server infrastructure and clustering technologies.

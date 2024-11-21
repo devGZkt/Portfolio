@@ -7,8 +7,9 @@ const Home = () => {
         <div className="text-white md:w-1/2 space-y-6">
           <h3 className="text-yellow-500 text-xl">Welcome to My Portfolio</h3>
           <h1 className="text-5xl font-bold">Hey, There</h1>
+          <h1 className='text-white text-3xl'>I'm Gabriel Zimmermann</h1>
           <p className="text-gray-400">
-            I’m an aspiring software developer specializing in building modern web applications. I enjoy exploring new technologies, solving complex problems, and delivering efficient solutions.
+            an aspiring software developer specializing in building modern web applications. I enjoy exploring new technologies, solving complex problems, and delivering efficient solutions.
           </p>
           <div className="flex space-x-4">
             <a

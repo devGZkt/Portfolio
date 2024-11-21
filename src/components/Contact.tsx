@@ -1,5 +1,3 @@
-import React from 'react';
-
 const Contact = () => {
   return (
     <div className="h-screen bg-black flex justify-center items-center p-8">
@@ -10,12 +8,12 @@ const Contact = () => {
           <p className="text-gray-400">
             Feel free to reach out to me for any inquiries or collaborations. I’m always excited about new projects and ideas.
           </p>
-          <a
-            href="mailto:gabriel.zimmermann4@icloud.com"
-            className="inline-block bg-yellow-500 text-black py-3 px-6 rounded-md hover:bg-yellow-400 transition duration-300"
-          >
-            Contact me
-          </a>
+              <a
+                href="mailto:gabriel.zimmermann4@icloud.com"
+                className="inline-block bg-yellow-500 text-black py-3 px-6 rounded-md hover:bg-yellow-400 transition duration-300"
+                >
+              Contact me
+              </a>
         </div>
         <div className="mt-8 md:mt-0 md:w-1/2 md:pl-16">
           <img
